@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(3, 22, 15);
+    font-family: "https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+}
+
+header{
+    background-color: rgb(3, 22, 15);
+}
+
+main{
+    background-color: rgb(3, 22, 15);
+    position: relative;
+}
+
+footer{
+    background-color: rgb(3, 22, 15);
+}
+img{
+    max-width: 100%;
+}
+
+
+font{
+    font-family: raleway, sans serif;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
